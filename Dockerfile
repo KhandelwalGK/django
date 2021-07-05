@@ -10,6 +10,6 @@ COPY requirements.txt /code/
 RUN pip install -r requirements.txt
 COPY . /code/
 
-EXPOSE 8082
+EXPOSE 8081
 
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8082"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8081"]
