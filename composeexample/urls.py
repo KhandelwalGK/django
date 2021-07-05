@@ -19,12 +19,4 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
 ]
-[root@ip-172-31-1-21 composeexample]# cat utils.py 
-import unittest
 
-def isGood():
-    return True
-
-class UtilsTest(unittest.TestCase):
-    def test(self):
-        self.assertTrue(isGood())
