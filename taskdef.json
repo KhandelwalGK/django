@@ -64,7 +64,7 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:558443770462:task-definition/django-task:6",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:558443770462:task-definition/django-task:5",
   "family": "django-task",
   "requiresAttributes": [
     {
