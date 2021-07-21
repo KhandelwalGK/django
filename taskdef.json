@@ -64,7 +64,7 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:558443770462:task-definition/django-task:5",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:558443770462:task-definition/django-task:9",
   "family": "django-task",
   "requiresAttributes": [
     {
@@ -128,7 +128,7 @@
   ],
   "networkMode": "awsvpc",
   "cpu": "256",
-  "revision": 6,
+  "revision": 9,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
