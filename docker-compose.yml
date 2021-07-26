@@ -1,0 +1,16 @@
+version: "3"
+services:
+   web:
+      build: .
+      container_name: web
+      ports:
+       - "8081:8081"
+      image: web
+      
+   nginx:
+    build: ./nginx
+    restart: always
+    container_name: nginx
+    ports:
+      - "80:80"
+    image: ng
